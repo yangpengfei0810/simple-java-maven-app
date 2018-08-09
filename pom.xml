@@ -34,4 +34,14 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+		<repository>
+			<id>heyi-Releases</id>
+			<url>http://120.25.221.171:8081/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>heyi-Snapshots</id>
+			<url>http://120.79.203.172:8081/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
